@@ -1,6 +1,5 @@
 {
   "python.pythonPath": "${workspaceFolder}/env/bin/python3",
-  "editor.formatOnSave": true,
   "python.linting.pycodestyleEnabled": true,
   "python.linting.pylintEnabled": true,
   "python.linting.pylintPath": "pylint",
@@ -9,5 +8,7 @@
   "python.linting.pycodestyleArgs": ["--ignore=E501"],
   "files.exclude": {
     "**/*.pyc": true
-  }
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
